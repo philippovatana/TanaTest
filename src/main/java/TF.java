@@ -3,10 +3,10 @@ public class TF{
     public static void main(String[] args){
     Scanner input= new Scanner(System.in);
         Float a;
-        System.out.println("Введите первое число");
+        System.out.println("Введите первое число\n");
         a= input.nextFloat();
         Float b;
-        System.out.println("Введите второе число");
+        System.out.println("Введите второе число\n");
         b= input.nextFloat();
         if (Math.abs(35 - a) == Math.abs(35 - b))
             System.out.println("Числа а и в равноудалены от 35");
