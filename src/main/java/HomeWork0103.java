@@ -1,12 +1,14 @@
 public class HomeWork0103 {
     public static void main(String[] args) {
-        double a = 10.5, b = 15.5, c = 30;
+        double a = 20, b = 40, c = 30;
+    if (Math.abs(c - a)== Math.abs(c - b)) {
+        System.out.println("Числа равноудаленные");
+    }else
         if (Math.abs(c - a) < Math.abs(c - b)) {
             System.out.println("Число " + a + " ближе к числу " + c);
-        } else {
+        }else {
             System.out.println("Число " + b + " ближе к числу " + c);
-
-        }
+                }
 
     int n=20;
     if(n%2==0){
