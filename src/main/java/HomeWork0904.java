@@ -7,9 +7,9 @@ public class HomeWork0904 {
             Scanner in = new Scanner(System.in);
 
             System.out.print("Введите число: ");
+              int number = in.nextInt();
 
-
-            double summ = seriesSum(number);
+              double summ = seriesSum(number);
 
             System.out.println(summ);
 
